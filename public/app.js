@@ -1,6 +1,3 @@
-
-
-
 function something() 
 {
 	var x = window.localStorage.getItem('bbb');
@@ -11,4 +8,11 @@ function something()
 
 	alert(x);
 	
-}	
+}
+
+
+
+function add_to_cart() 
+{
+  	alert('Hello all !');
+}
