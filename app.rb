@@ -27,9 +27,9 @@ post '/cart' do
 	@items = parse_orders_input orders_input
 
 	@items.each do |item|
-		#id, cmt
-		item[0] = Product.find(item[0])
-	end	
+    # id, cnt
+    item[0] = Product.find(item[0])
+  end
 
    erb :cart
 end
